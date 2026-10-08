@@ -1,0 +1,54 @@
+body {
+    background: #101820;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 350px;
+    padding: 20px;
+    background: #1c2431;
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    margin: 6px 0;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    background: cyan;
+    color: #000;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* Color-coded Health Impact */
+.class_0 { background-color: #4CAF50; color: #000; } /* Green */
+.class_1 { background-color: #FFEB3B; color: #000; } /* Yellow */
+.class_2 { background-color: #FF9800; color: #fff; } /* Orange */
+.class_3 { background-color: #FF0000; color: #fff; } /* Red */
+.class_4 { background-color: #8B008B; color: #fff; } /* Dark Purple */
